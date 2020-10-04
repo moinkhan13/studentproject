@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".homeactivity">
+
+    <Button
+        android:id="@+id/add_students_details"
+        android:layout_width="177dp"
+        android:layout_height="60dp"
+        android:background="#9EE6BE"
+        android:shadowColor="#9C27B0"
+        android:text="ADD DETAILS"
+        android:textColor="#FF5722"
+        android:textColorHighlight="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374" />
+
+    <Button
+        android:id="@+id/exit_app"
+        android:layout_width="177dp"
+        android:layout_height="60dp"
+        android:background="#9EE6BE"
+        android:shadowColor="#9C27B0"
+        android:text="EXIT APP"
+        android:textColor="#FF5722"
+        android:textColorHighlight="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <Button
+        android:id="@+id/view_all_students"
+        android:layout_width="177dp"
+        android:layout_height="60dp"
+        android:background="#9EE6BE"
+        android:shadowColor="#9C27B0"
+        android:text="VIEW ALL"
+        android:textColor="#FF5722"
+        android:textColorHighlight="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

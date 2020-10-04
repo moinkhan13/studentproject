@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC107"
+    tools:context=".Add_studentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Student_year"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Student's Year"
+            android:padding="10dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/Project_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Project Name"
+            android:padding="10dp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/Member1_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:hint="1st Member's Name"
+            android:padding="10dp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/Member2_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:hint="2nd Member's Name"
+            android:padding="10dp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/Member3_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:hint="3rd Member's Name"
+            android:padding="10dp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/Member4_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:hint="4th Member's Name"
+            android:padding="10dp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/Member5_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:hint="5th Member's Name"
+            android:padding="10dp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/Software_used"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Software used"
+            android:padding="10dp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/Roll_numbers"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Roll numbers"
+            android:padding="10dp">
+
+        </EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Details"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:id="@+id/Add_details">
+        </Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
